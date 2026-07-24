@@ -1,32 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Prospere">
-    <title>Proyecto Feria TP</title>
-    <link rel="stylesheet" href="static/css/style.css">
+    <meta name="author" content="Grupo Prospere">
+    <title>Prospere - Proyecto Feria TP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
-    <header class="Header">
-        <nav class="Nav">
-            <img src="static/images/Logo_Prospere.png"></img>
-            <a>Inicio</a>
-            <a>Que es Prospere</a>
-            <a>Porque nosotros?</a>
-            <a>Registrate</a>
-        </nav>
-    </header>
-    <main>
-            <section class="Inicio">
-                <h1>Prospere es la aplicacion ideal para embarcar con tu propia empresa </h1>
-            </section>
-            <section class="Que_Es">
 
-            </section>
-    </main>
-    <footer>
-    
+<body>
+
+    <header>
+        <div class="contenedor">
+            <nav>
+                <div class="logo">Prospere<span>.</span></div>
+                <div class="nav-links">
+                    <a href="#pilares">Propuesta</a>
+                    <a href="#cifras">Prototipo</a>
+                    <a href="#cita">Opiniones</a>
+                    <a href="#contacto">Equipo</a>
+                </div>
+                <a href="#contacto" class="btn btn-linea">Contactanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <svg class="hero-grafico" viewBox="0 0 1200 400" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="0,380 120,340 240,355 360,280 480,300 600,210 720,230 840,140 960,160 1080,60 1200,90"
+                fill="none" stroke="#C9A227" stroke-width="2" opacity="0.55" />
+            <polyline points="0,400 120,380 240,390 360,340 480,350 600,290 720,300 840,240 960,250 1080,170 1200,190"
+                fill="none" stroke="#E8C766" stroke-width="1.4" opacity="0.35" />
+        </svg>
+        <div class="contenedor">
+            <h1>Una app pensada para impulsar <em>soluciones reales</em> a través de la tecnología.</h1>
+            <p>El 40% de las PYMES en Chile muere antes del tercer año</p>
+            <div class="hero-cta">
+                <a href="#contacto" class="btn btn-oro">[Agendar una consulta]</a>
+                <a href="#pilares" class="btn btn-linea">[Ver cómo trabajamos]</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion" id="pilares">
+        <div class="contenedor">
+            <div class="titulo-seccion reveal">
+                <div class="hero-eyebrow">Nuestro enfoque</div>
+                <h2>Tres pilares que sostienen cada decisión</h2>
+                <p>Nosotros como Prospere, incentivamos el desarrollo de ideas sólidas para el emprendimiento de cada individuo, apoyando y aconsejando a quiénes tienen la aspiración de crecer como empresa, entregando las herramientas necesarias para elaborar emprendimientos con propósito e impacto reales, sin invalidar la fuente de la idea del propietario intelectual.</p>
+            </div>
+            <div class="pilares">
+                <div class="pilar reveal">
+                    <span class="pilar-marca">Ⅰ</span>
+                    <h3>Diagnóstico del problema</h3>
+                    <p>La represión social de la innovación emprendedora y el opacamiento de ciertas ideas y como los emprendimientos mayoritariamente llegan a fracaso por la falta de información y/o apoyo. Muchos dejan sus empleos para surgir en sus ideas, pero acaban fracasando, perdiendo una gran capital económica, como resultado, obtenemos una disminución de posibles ideas de innovación que hubieran sido un impulso tanto económico como creativo. 
+                </p>
+                </div>
+                <div class="pilar reveal">
+                    <span class="pilar-marca">Ⅱ</span>
+                    <h3>Desarrollo de la solucion</h3>
+                    <p>Desarrollaremos una aplicación integrada diseñada para potenciar los talentos invisibilizados y transformar habilidades técnicas en emprendimientos de alto impacto. La solución combina educación, Internet de las Cosas (IoT) e Inteligencia Artificial en un solo ecosistema
+                    </p>
+                </div>
+                <div class="pilar reveal">
+                    <span class="pilar-marca">Ⅲ</span>
+                    <h3>Planificación a largo plazo</h3>
+                    <p>[Descripción del tercer servicio o pilar, cerrando la narrativa de los tres.]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cita" id="cita">
+        <div class="contenedor">
+            <blockquote class="reveal">
+                "[Cita de un cliente o socio que respalde la promesa de la marca, en su propia voz y con un resultado
+                concreto.]"
+            </blockquote>
+            <cite>— [Nombre del cliente], [Cargo o empresa]</cite>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="contenedor">
+            <h2 class="reveal">Tu próxima etapa de crecimiento empieza con una conversación</h2>
+            <p class="reveal">[Frase de cierre que invite a la acción, mencionando el siguiente paso concreto que dará
+                el visitante.]</p>
+            <div class="hero-cta reveal">
+                <a href="#contacto" class="btn btn-oro">[Agendar una consulta]</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="contenedor">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>[Nombre de la Empresa]</h4>
+                    <a href="mailto:contacto@ejemplo.com">[contacto@ejemplo.com]</a>
+                    <a href="tel:+000000000">[+00 000 000 000]</a>
+                    <a href="#">[Dirección o ciudad]</a>
+                </div>
+                <div class="footer-col">
+                    <h4>[Explorar]</h4>
+                    <a href="#pilares">[Servicios]</a>
+                    <a href="#cifras">[Resultados]</a>
+                    <a href="#cita">[Testimonios]</a>
+                </div>
+                <div class="footer-col">
+                    <h4>[Síguenos]</h4>
+                    <a href="#">[LinkedIn]</a>
+                    <a href="#">[Instagram]</a>
+                    <a href="#">[X / Twitter]</a>
+                </div>
+            </div>
+            <div class="footer-nota">
+                © [2026] [Nombre de la Empresa]. [Todos los derechos reservados.]
+            </div>
+        </div>
     </footer>
+
+    <script>
+        const elementos = document.querySelectorAll('.reveal');
+        const observador = new IntersectionObserver((entradas) => {
+            entradas.forEach(entrada => {
+                if (entrada.isIntersecting) {
+                    entrada.target.classList.add('visible');
+                    observador.unobserve(entrada.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        elementos.forEach(el => observador.observe(el));
+    </script>
+
 </body>
+
 </html>
